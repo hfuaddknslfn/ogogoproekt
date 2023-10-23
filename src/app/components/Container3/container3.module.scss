@@ -1,0 +1,194 @@
+.container3 {
+  width: 100%;
+  height: 800px;
+  background: #161616;
+  .container3_wrapper {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    .container3_info {
+      display: flex;
+      flex-direction: row;
+      width: 1200px;
+      height: 800px;
+      align-items: center;
+      gap: 100px;
+      .container3_card {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        align-items: center;
+        .image_columns {
+          width: 690px;
+        }
+        .text_taxi {
+          color: #ff7a00;
+          font-family: Gilroy;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          width: 665px;
+        }
+        .cont3_text1 {
+          color: #fff;
+          width: 665px;
+          font-family: Gilroy;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 426px) {
+  .container3 {
+    width: 425px;
+    height: 700px;
+    .container3_wrapper {
+      width: 375px;
+      height: 400px;
+      .container3_info {
+        width: 375px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        .container3_card {
+          width: 375px;
+          height: 400px;
+          display: flex;
+          gap: 50px;
+          .text_taxi {
+            font-size: 32px;
+            width: 375px;
+          }
+          .cont3_text1 {
+            font-size: 20px;
+            width: 375px;
+          }
+          .image_columns {
+            width: 375px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            img {
+              width: 175px;
+              height: 60px;
+            }
+          }
+        }
+        .geo_location {
+          padding-top: 150px;
+          .geo_location_image {
+            width: 225px;
+            display: none;
+            height: 375px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 427px) and (max-width: 768px) {
+  .container3 {
+    width: 768px;
+    height: 700px;
+    .container3_wrapper {
+      width: 568px;
+      height: 400px;
+      .container3_info {
+        width: 568px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        .container3_card {
+          width: 568px;
+          height: 400px;
+          display: flex;
+          gap: 50px;
+          .text_taxi {
+            font-size: 32px;
+            width: 568px;
+          }
+          .cont3_text1 {
+            font-size: 20px;
+            width: 568px;
+          }
+          .image_columns {
+            width: 568px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            img {
+              width: 175px;
+              height: 60px;
+            }
+          }
+        }
+        .geo_location {
+          padding-top: 150px;
+          .geo_location_image {
+            display: none;
+            width: 225px;
+            height: 450px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
+  .container3 {
+    width: 1024px;
+    height: 600px;
+    .container3_wrapper {
+      width: 768px;
+      height: 400px;
+      .container3_info {
+        width: 868px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 80px;
+        gap: 80px;
+        .container3_card {
+          width: 568px;
+          height: 400px;
+          display: flex;
+          gap: 50px;
+          .text_taxi {
+            font-size: 32px;
+            width: 568px;
+          }
+          .cont3_text1 {
+            font-size: 20px;
+            width: 568px;
+          }
+          .image_columns {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            img {
+              width: 175px;
+              height: 60px;
+            }
+          }
+        }
+        .geo_location {
+          padding-top: 150px;
+          .geo_location_image {
+            width: 225px;
+            height: 450px;
+          }
+        }
+      }
+    }
+  }
+}

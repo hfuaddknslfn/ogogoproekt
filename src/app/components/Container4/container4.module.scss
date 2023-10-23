@@ -1,0 +1,231 @@
+.container4 {
+  width: 100%;
+  height: 800px;
+  background: #161616;
+  .container4_wrapper {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    .container4_info {
+      display: flex;
+      flex-direction: row-reverse;
+      width: 1400px;
+      height: 800px;
+      align-items: center;
+      gap: 100px;
+      .container4_card {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        align-items: center;
+        width: 620px;
+        .image_columns {
+          width: 665px;
+          display: flex;
+          text-decoration: none;
+          text-align: right;
+        }
+        .text_taxi {
+          color: #ff7a00;
+          font-family: Gilroy;
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          width: 500px;
+          text-align: right;
+        }
+        .cont4_text1 {
+          color: #fff;
+          width: 500px;
+          font-family: Gilroy;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-align: right;
+        }
+        .to_next_glav {
+          text-decoration: none;
+          display: flex;
+          width: 580px;
+          .to_next {
+            color: #fff;
+            width: 580px;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 426px) {
+  .container4 {
+    width: 425px;
+    height: 900px;
+    .container4_wrapper {
+      width: 425px;
+      // height: 600px;
+      .container4_info {
+        display: flex;
+        flex-direction: column;
+        width: 425px;
+        height: 600px;
+        gap: 10px;
+        align-items: center;
+        .container4_card {
+          text-align: center;
+          gap: 50px;
+          display: flex;
+          flex-direction: column;
+          width: 425px;
+          height: 600px;
+          padding-top: 100px;
+          .text_taxi {
+            font-size: 32px;
+            width: 425px;
+            text-align: center;
+          }
+          .cont4_text1 {
+            font-size: 20px;
+            width: 425px;
+            text-align: center;
+          }
+          .image_columns {
+            width: 425px;
+
+            .to_next_glav {
+              // text-align: center;
+              margin: 0 auto;
+              height: 30px;
+              width: 215px;
+              .to_next {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+        .geo_location {
+          padding-top: 80px;
+          .geo_location_image {
+            width: 350px;
+            height: 225px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+  .container4 {
+    width: 768px;
+    height: 900px;
+    .container4_wrapper {
+      width: 768px;
+      // height: 600px;
+      .container4_info {
+        display: flex;
+        flex-direction: column;
+        width: 568px;
+        height: 600px;
+        gap: 10px;
+        align-items: center;
+        .container4_card {
+          text-align: center;
+          gap: 50px;
+          display: flex;
+          flex-direction: column;
+          width: 568px;
+          height: 600px;
+          padding-top: 100px;
+          .text_taxi {
+            font-size: 32px;
+            width: 568px;
+            text-align: center;
+          }
+          .cont4_text1 {
+            font-size: 20px;
+            width: 568px;
+            text-align: center;
+          }
+          .image_columns {
+            .to_next_glav {
+              text-align: center;
+              height: 30px;
+              width: 425px;
+              .to_next {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+        .geo_location {
+          padding-top: 80px;
+          .geo_location_image {
+            width: 350px;
+            height: 225px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
+  .container4 {
+    width: 1024px;
+    height: 600px;
+    .container4_wrapper {
+      width: 1024px;
+      // height: 600px;
+      .container4_info {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 868px;
+        height: 600px;
+        gap: 100px;
+        align-items: center;
+        .container4_card {
+          text-align: center;
+          gap: 50px;
+          display: flex;
+          flex-direction: column;
+          width: 425px;
+          height: 600px;
+          padding-top: 100px;
+          .text_taxi {
+            font-size: 32px;
+            width: 425px;
+            text-align: center;
+          }
+          .cont4_text1 {
+            font-size: 20px;
+            width: 425px;
+            text-align: center;
+          }
+          .image_columns {
+            width: 70%;
+            .to_next_glav {
+              text-align: center;
+              height: 30px;
+              width: 70%;
+              .to_next {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+        .geo_location {
+          padding-top: 80px;
+          .geo_location_image {
+            width: 350px;
+            height: 225px;
+          }
+        }
+      }
+    }
+  }
+}

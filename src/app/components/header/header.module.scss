@@ -1,0 +1,135 @@
+.header {
+  background: #161616;
+  width: 100%;
+
+  &__headerWrapper {
+    margin: 0 auto;
+    padding-top: 43px;
+    padding-bottom: 20px;
+    width: 1200px;
+    display: flex;
+  }
+  .header_img {
+  }
+  .nav {
+    display: flex;
+  }
+
+  .burger_menu {
+    display: none;
+  }
+
+  nav {
+    gap: 2px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    ul {
+      align-items: center;
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      gap: 36.42px;
+      li {
+        color: aliceblue;
+      }
+
+      .info_inside {
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 18.639px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: all 0.3s ease-in-out;
+      }
+      .info_inside:hover {
+        color: orangered;
+      }
+      .info_inside2 {
+        display: flex;
+
+        text-decoration: none;
+        display: flex;
+        color: #fff;
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 18.639px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: all 0.3s ease-in-out;
+      }
+      .info_inside2:hover {
+        color: orangered;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .header {
+    width: 425px;
+    display: none;
+  }
+}
+@media screen and (min-width: 427px) and (max-width: 768px) {
+  .header {
+    width: 768px;
+    height: 100px;
+    display: none;
+    .header__headerWrapper {
+      height: 100px;
+      width: 725px;
+      .header_img {
+        padding: 0 20px 0 0;
+        // width: 0px;
+        height: 25px;
+      }
+      nav {
+        width: 568px;
+        ul {
+          width: 568px;
+          .info {
+            width: auto;
+            .info_inside {
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1024px) {
+  .header {
+    width: 1024px;
+    height: 100px;
+    .header__headerWrapper {
+      height: 100px;
+      width: 768px;
+      .header_img {
+        padding: 0 20px 0 0;
+        width: 50px;
+        height: 25px;
+      }
+      nav {
+        width: 768px;
+        ul {
+          width: 768px;
+          .info {
+            width: auto;
+            .info_inside {
+              font-size: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
