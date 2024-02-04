@@ -21,6 +21,11 @@ const Container5 = () => {
               идеи наших клиентов с помощью качественно подобранных кадров в
               инфраструктуре IT.
             </h2>
+            <div className={cont5.image_columns}>
+              <Link className={cont5.to_next_glav} href="/">
+                <h1 className={cont5.to_next}>Перейти на страницу</h1>
+              </Link>
+            </div>
           </div>
           <div className={cont5.geo_location}>
             <img

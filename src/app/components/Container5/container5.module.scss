@@ -31,6 +31,16 @@
           line-height: normal;
           width: 520px;
         }
+        .to_next_glav {
+          text-decoration: none;
+          display: flex;
+          width: 520px;
+          .to_next {
+            color: #fff;
+            width: 520px;
+            text-align: left;
+          }
+        }
         .cont5_text1 {
           color: #fff;
           width: 520px;
@@ -44,33 +54,48 @@
     }
   }
 }
-@media screen and (max-width: 426px) {
+@media screen and (min-width: 320px) and (max-width: 426px) {
   .container5 {
-    width: 425px;
+    width: 100%;
     height: 900px;
     .container5_wrapper {
-      width: 375px;
+      // width: 375px;
+      width: 100%;
       height: 400px;
       .container5_info {
-        width: 375px;
+        // width: 375px;
+        width: 100%;
+
         height: 400px;
         display: flex;
         flex-direction: column;
         .container5_card {
-          width: 375px;
+          width: 95%;
+
           height: 400px;
           display: flex;
           gap: 50px;
           .text_taxi {
             font-size: 32px;
-            width: 375px;
+            width: 95%;
+          }
+          .to_next_glav {
+            width: 100%;
+            height: 100px;
+            .to_next {
+              width: 100%;
+              height: 100px;
+
+              text-align: left;
+            }
           }
           .cont5_text1 {
             font-size: 20px;
-            width: 375px;
+            width: 95%;
           }
           .image_columns {
-            width: 375px;
+            width: 95%;
+
             margin: 0 auto;
             display: flex;
             justify-content: center;
@@ -82,7 +107,8 @@
         }
         .geo_location {
           .geo_location_image {
-            width: 350px;
+            // width: 350px;
+            width: 100%;
             height: 225px;
           }
         }
@@ -112,6 +138,13 @@
           .text_taxi {
             font-size: 32px;
             width: 568px;
+          }
+          .to_next_glav {
+            width: 568px;
+            .to_next {
+              width: 568px;
+              text-align: left;
+            }
           }
           .cont5_text1 {
             font-size: 20px;
@@ -161,6 +194,13 @@
           .text_taxi {
             font-size: 32px;
             width: 425px;
+          }
+          .to_next_glav {
+            width: 425px;
+            .to_next {
+              width: 568px;
+              text-align: left;
+            }
           }
           .cont5_text1 {
             font-size: 20px;
